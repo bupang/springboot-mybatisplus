@@ -41,10 +41,6 @@ public class User extends SuperEntity<User> implements Serializable{
     private String nickname;
     private String password;
 
-    @TableField(value= "dept_id")
-    private String deptId;
-    @TableField(value= "dept_name")
-    private String deptName;
     private String status;
     private String sex;
 
